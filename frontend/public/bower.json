@@ -1,0 +1,14 @@
+{
+  "name": "amasystem",
+  "description": "This is the front side file.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

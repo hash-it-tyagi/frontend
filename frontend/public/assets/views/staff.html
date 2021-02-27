@@ -1,0 +1,129 @@
+<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+        <i class="fa fa-bars"></i>
+    </button>
+    <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+        <div class="input-group">
+            <input type="text" class="form-control bg-light border-0 small" placeholder="Enter Staff Name" aria-label="Search" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                    <i class="fas fa-search fa-sm"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown no-arrow d-sm-none">
+            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">
+                                <i class="fas fa-search fa-sm"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </li>
+        <div class="topbar-divider d-none d-sm-block"></div>
+        <li class="nav-item dropdown no-arrow">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Name of the User</span>
+                <img class="img-profile rounded-circle"
+                    src="assets/images/admindashboard/adminprofile.jpg">
+            </a>
+        </li>
+    </ul>
+</nav>
+<div class="container">
+    <div>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12">
+                <div class="card shadow mb-4">
+                    <div
+                        class="card-header py-3 d-flex flex-row align-items-center justify-content-center">
+                        <h5 class="m-0 font-weight-bold mycards">STAFF OPERATIONS</h5><span class="fas fa-users fa-2x ml-2 mycards rotate-n-15"></span>
+                    </div>
+                    <div class=" col-xl-11 col-xs-12 col-sm-12 card-body">
+                        <form class="user"> 
+                            <div class="form-group ">
+                                <label for="">Staff Name</label>
+                                <input type="text" class="form-control form-control-user ml-5"                             placeholder="Enter Staff Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Staff Salary</label>
+                                <input type="text" class="form-control form-control-user ml-5" placeholder="Enter Staff Salary">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Staff Designation</label>
+                                <input type="text" class="form-control form-control-user ml-5"
+                                    placeholder="Enter Staff Designation">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Staff Contact Number</label>
+                                <input type="text" class="form-control form-control-user ml-5"
+                                    placeholder="Enter Staff Contact Number">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Staff Url</label>
+                                <input type="text" class="form-control form-control-user ml-5"
+                                    placeholder="Enter Staff Url">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Job Type</label>
+                               <div>
+                                    <input type="radio" class=" ml-5">   
+                                    <span class="fas fa-hourglass-half fa-2x"></span>
+                                    
+                               </div>
+                               <div>
+                                    <input type="radio" class=" ml-5">   
+                                    <span class="fas fa-user fa-2x"></span>
+                                </div>
+                            </div>
+                            <hr class="myline">
+                            <div class="d-flex mybuttons flex-row align-items-center justify-content-around ml-5">
+                                <button class="btn btn-success btn-icon-split">
+                                    <span class="icon text-white-50">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                    <span class="text">Add</span>
+                                </button>
+                                <button class="btn btn-primary btn-icon-split">
+                                    <span class="icon text-white-50">
+                                        <i class="fas fa-edit"></i>
+                                    </span>
+                                    <span class="text">Update</span>
+                                </button>
+                                <button class="btn btn-warning btn-icon-split">
+                                    <span class="icon text-white-50">
+                                        <i class="fas fa-sort"></i>
+                                    </span>
+                                    <span class="text">Sort</span>
+                                </button>
+                                <button class="btn btn-info btn-icon-split">
+                                    <span class="icon text-white-50">
+                                        <i class="fas fa-info-circle"></i>
+                                    </span>
+                                    <span class="text">Show</span>
+                                </button>
+                                <button class="btn btn-danger btn-icon-split">
+                                    <span class="icon text-white-50">
+                                        <i class="fas fa-trash"></i>
+                                    </span>
+                                    <span class="text">Delete</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

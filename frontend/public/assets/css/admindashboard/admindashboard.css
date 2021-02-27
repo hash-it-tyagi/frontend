@@ -1,0 +1,56 @@
+#accordionSidebar {
+    background-color: #5d0f00;
+}
+
+.mycards {
+    color: #5d0f00 !important;
+}
+
+.border-left-primary, .border-left-success, .border-left-info, .border-left-warning {
+    border-left-color:#5d0f00 !important;
+}
+
+.btn-primary {
+    background-color: #5d0f00 !important;
+    border-color: #5d0f00 !important;
+}
+
+.myline {
+    margin-left: 4rem;
+}
+
+.mybuttons {
+    margin-left: 5rem !important;
+}
+
+#select-category {
+    background-color: gray;
+    color: white;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.myFlex {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.myNumber input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.searchNotFound::placeholder {
+    color: red;
+}
+
+.searchFound::placeholder {
+    color: gray;
+}

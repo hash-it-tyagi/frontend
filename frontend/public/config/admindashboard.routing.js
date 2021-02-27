@@ -1,0 +1,9 @@
+app.config(($routeProvider,$locationProvider)=>{
+    $locationProvider.hashPrefix("");
+    $routeProvider.when("/",{templateUrl:"assets/views/dashboard.html"})
+    .when("/products",{templateUrl:"assets/views/products.html"})
+    .when("/coffee&bakery",{templateUrl:"assets/views/coffee&bakery.html"})
+    .when("/order",{templateUrl:"assets/views/order.html"})
+    .when("/staff",{templateUrl:"assets/views/staff.html"})
+    .when("/feedbacks",{templateUrl:"assets/views/feedbacks.html"});
+});
